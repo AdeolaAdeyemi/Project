@@ -1,0 +1,17 @@
+print ("The year I will turn 100 years old")
+Name = input("Give your name: ")
+print("My name is " + Name)
+print("Now enter your age")
+Age = int(input("Age: "))
+
+from datetime import date
+today = date.today()
+tt = today.year
+print("You are going to be 100 in the year " + str((100-Age)+ tt))
+
+#x = input("Give me a number")
+Number = int(input("Give a number: "))
+if (Number % 2 == 0):
+    print(Number, "is even")
+else:
+    print(Number, "is odd")
