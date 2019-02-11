@@ -2,5 +2,4 @@ a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 s = []
 for num in a:
     s.append(num**(1/2))
-
 print (s)
